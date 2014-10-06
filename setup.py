@@ -9,12 +9,16 @@ CHANGES = open(os.path.join(here, 'CHANGES.rst')).read()
 requires = [
     'Arche',
     'pyramid',
+    'pyramid_deform',
     'betahaus.viewcomponent',
     'colander',
     'deform',
     'fanstatic',
     'lingua',
     'Babel',
+    'requests',
+    'beautifulsoup4',
+    'lxml',
     ]
 
 setup(name='arche_external_resource',
