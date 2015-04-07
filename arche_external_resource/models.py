@@ -51,4 +51,4 @@ def includeme(config):
     config.add_content_factory(ExternalResource)
     config.add_addable_content('ExternalResource', ('Root', 'Document'))
     aclreg = get_acl_registry(config.registry)
-    aclreg.default.add(ROLE_ADMIN, ExternalResource.add_permission)
+    aclreg['public'].add(ROLE_ADMIN, ExternalResource.add_permission)
