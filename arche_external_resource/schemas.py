@@ -5,6 +5,8 @@ from deform.widget import TextInputWidget
 import colander
 import requests
 
+from arche_external_resource import _
+
 
 class EmbedWidget(TextInputWidget):
     template = 'widgets/embed_textinput'
